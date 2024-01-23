@@ -1,0 +1,83 @@
+
+    #mybatch{
+        width: 100rem;
+        height: 50px;
+        border: 2px solid black;
+        background-color: rgba(100, 100, 173, 0.925);
+       /* position: relative;
+        left : 70px;*/
+        outline:3px solid rgb(184, 97, 97);
+        
+    }
+    #mygender{
+        width: 100rem;
+        height: 50px;
+        border: 2px solid black;
+        background-color: rgba(100, 100, 173, 0.925);
+       
+        outline:3px solid rgb(184, 97, 97);
+    }
+    #hall{
+        width: 100rem;
+        height: 50px;
+        border: 2px solid black;
+        background-color: rgba(100, 100, 173, 0.925);
+        position: relative;
+        outline:3px solid rgb(184, 97, 97);
+    }
+    #programme{
+        width: 100rem;
+        height: 50px;
+        border: 2px solid black;
+        background-color: rgba(100, 100, 173, 0.925);
+        position: relative;
+        outline:3px solid rgb(184, 97, 97);
+        
+    }
+    #depart{
+        width: 100rem;
+        height: 50px;
+        border: 2px solid black;
+        background-color: rgba(100, 100, 173, 0.925);
+        position: relative;
+        outline:3px solid rgb(184, 97, 97);
+        
+    }
+    #blood{
+        width: 100rem;
+        height: 50px;
+        border: 2px solid black;
+        background-color: rgba(100, 100, 173, 0.925);
+        position: relative;
+        outline:3px solid rgb(184, 97, 97);
+    }
+    #home{
+        width:100rem;
+        height:50px;
+         background-color:rgba(100, 100, 173, 0.925);
+         border: 2px solid black;
+        position: relative;
+        color:black;
+       
+        outline:3px solid rgb(184, 97, 97);
+        
+    }
+    .batch{
+        display: flex;
+        justify-content: center;
+    }
+    .greater{
+        display: grid;
+        grid-template-rows: 34% 34% 32%;
+        grid-template-columns: 33% 34% 33%; 
+        gap: 20px;
+        
+      
+    }
+    .lower{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
