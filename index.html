@@ -1,117 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>student search iitk</title>
-    <form action="backend.php"></form>
-    <link rel="stylesheet" href="studentsearch.css">
-   <style>
-   body{
-    background-image: url(iitkanpur.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-   }
-   </style>
-    
+    <title>Student Search IITK</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <h1><center>Student Search IITK</center></h1>
-    <div class="greater">
-    <div class="lower">
-    <label for="mybatch"></label>
-     <select id="mybatch">
-        <option class="batch">Batch</option>
-        <option value="Y23">Y23</option>
-        <option value="Y22">Y22</option>
-        <option value="Y21">Y21</option>
-        <option value="Y20">Y20</option>
-        <option value="Y19">Y19</option>
-        <option value="Y18">Y18</option>
-        <option value="Y17">Y17</option>
-        <option value="Y16">Y16</option>
-        <option value="Y15">Y15</option>
-        <option value="Y14">Y14</option>
-        <option value="Y13">Y13</option>
-        <option value="Y12">Y12</option>
-        <option value="Y11">Y11</option>
-        <option value="Y10">Y10</option>
-     </select> 
-     </div>
-     <div class="lower">
-     <label for="mygender"></label>
-     <select id="mygender">
-        <option class="gender">Gender</option>
-        <option value="Male">Male</option>
-        <option value="Female">Female</option>
-        <option value="Other">Other</option>
-     </select>
-     </div>
-     <div class="lower">
-     <label for="hall"></label>
-       <select id="hall">
-        <option class="Hall">Hall</option>
-        <option value="Hall 14">Hall 14</option>
-        <option value="Hall 13">Hall 13</option>
-        <option value="Hall 12">Hall 12</option>
-        <option value="Hall 11">Hall 11</option>
-        <option value="Hall 10">Hall 10</option>
-        <option value="Hall 9">Hall 9</option>
-        <option value="Hall 8">Hall 8</option>
-        <option value="Hall 7">Hall 7</option>
-        <option value="Hall 6">Hall 6</option>
-        <option value="Hall 5">Hall 5</option>
-        <option value="Hall 4">Hall 4</option>
-        <option value="Hall 3">Hall 3</option>
-        <option value="Hall 2">Hall 2</option>
-        <option value="Hall 1">Hall 1</option>
-     </select>
-     </div>
-     
+  <form action="data.php">
+    <h1 style="color:aliceblue"><bold>Student Search IITK</bold></h1>
+    <div class="list">
+        <div class="second">
+            <label for="department-select"><i class="branch-icon" href="Images.branch.png"><i class="bi bi-7-square-fill"></i></i></label>
 
-     <div class="lower">
-        <label for="programme"></label>
-     <select id="programme">
-        <option class="programme-select">Programme</option>
-        <option value="BS">BS</option>
-        <option value="BS-MBA">BS-MBA</option>
-        <option value="BS-MS">BS-MS</option>
-        <option value="BS-MT">BS-MT</option>
-        <option value="BS">BS</option>
-        <option value="BT-M.Des">BT-M.Des</option>
-        <option value="BT-MBA">BT-MBA</option>
-        <option value="BT-MS">BT-MS</option>
-        <option value="BTech">BTech</option>
-        <option value="MSc(2yr)">MSc(2yr)</option>
-         </select>
-         </div>
-         <div class="lower">
-         <label for="depart"></label>
-         <select id="depart">
-            <option class="department">Department</option>
-            <option value="Aerospace Engineering">Aerospace Engineering</option>
-            <option value="Biological Sciences and BioEngineering">Biological Sciences and BioEngineering</option>
-            <option value="Chemical Engineering">Chemical Engineering</option>
-            <option value="Chemistry">Chemistry</option>
-            <option value="Civil Engineering">Civil Engineering</option>
-            <option class="cse">Computer Science and Engineering</option>
-            <option class="cogsc">Cognitive Science</option>
-            <option class="mth">Mathematics and Scientific Computing</option>
-            <option class="sds">Statstics and Data science</option>
-            <option class="mech">Mechanical Engineering</option>
-            <option class="mse">Material science and Engineering</option>
-            <option class="phy">Physics</option>
-            <option class="chm">Chemistry</option>
-            <option class="es">Earth science</option>
+            <select id="department-select">
+              <option class="dep"><i class="bi bi-7-square-fill"></i><bold>Department</bold></option>
+              <option value="aerospace">Aerospace Engineering</option>
+              <option value="bio">Biological Science & Bio-Engineering</option>
+              <option value="chemical">Chemical Engineering</option>
+              <option value="ce">Civil Engineering</option>
+              <option value="cse">Computer Science & Engineering</option>
+              <option value="electrical">Electrical Engineering</option>
+              <option value="mse">Material Science & Engineering</option>
+              <option value="me">Mechanical Engineering</option>
+              <option value=""></option>
+              <option value="mth">Mathematics & Scientific Computing</option>
+              <option value="chm">Chemistry</option>
+              <option value="phy">Physics</option>
+              <option value="eco">Economics</option>
+              <option value="es">Earth Science</option>
+              <option value="sds">Statistics & Data Science</option>
+              
+            </select>
+            </div>
+            <div class="second">
 
+          <label for="gender-select"></label>
 
-         </select>
-         </div>
-         <div class="lower">
-         <label for="blood"> </label>
-         <select id="blood">
-            <option class="bloodgroup">Blood Group</option>
+          <select id="gender-select">
+            <option class="gender"><bold>Gender</bold></option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="any">Any</option>
+
+          </select>
+        </div>
+        <div class="second">
+          <label for="hall-select"></label>
+
+<select id="hall-select">
+  <option class="hall"><bold>Hall</bold></option>
+  <option value="hall1">Hall 1</option>
+  <option value="hall2">Hall 2</option>
+  <option value="hall3">Hall 3</option>
+  <option value="hall4">Hall 4</option>
+  <option value="hall5">Hall 5</option>
+  <option value="hall6">Hall 6</option>
+  <option value="hall7">Hall 7</option>
+  <option value="hall8">Hall 8</option>
+  <option value="hall9">Hall 9</option>
+  <option value="hall10">Hall 10</option>
+  <option value="hall11">Hall 11</option>
+  <option value="hall12">Hall 12</option>
+  <option value="hall13">Hall 13</option>
+  <option value="hall14">Hall 14</option>
+
+</select>
+</div>
+<div class="second">
+<label for="batch-select"></label>
+
+<select id="batch-select">
+  <option class="batch"><bold>Batch</bold></option>
+  <option value="y23">Y23</option>
+    <option value="y22">Y22</option>
+    <option value="y21">Y21</option>
+    <option value="y20">Y20</option>
+<option value="y19">Y19</option>
+<option value="y18">Y18</option>
+<option value="y17">Y17</option>
+<option value="y16">Y16</option>
+<option value="y15">Y15</option>
+<option value="y14">Y14</option>
+<option value="y13">Y13</option>
+<option value="y12">Y12</option>
+<option value="y11">Y11</option>
+<option value="y10">Y10</option>
+<option value="y9">Y9</option>
+
+    
+</select>
+</div>
+         <div class="second">
+          <label for="bloodGroup-select"></label>
+          <select id="bloodGroup-select">
+            <option class="bg"><bold>Blood Group</bold></option>
             <option value="A+">A+</option>
             <option value="A-">A-</option>
             <option value="B+">B+</option>
@@ -120,14 +103,45 @@
             <option value="AB-">AB-</option>
             <option value="O+">O+</option>
             <option value="O-">O-</option>
+            <option value="NA">Not Available</option>
+          </select>
+         </div>
+         <div class="second">
+          <label for="programme-select"></label>
+          <select id="programme-select">
+            <option class="programme"><bold>Programme</bold></option>
+            <option value="BTech">Btech</option>
+            <option value="BT-MS">BT-MS</option>
+            <option value="BS-MT">BS-MT</option>
+            <option value="BS-MS">BS-MS</option>
+            <option value="BT-MBA">BT-MBA</option>
+            <option value="BS">BS</option>
+            <option value="MBA">MBA</option>
+            <option value="MSC">MSC</option>
 
-         </select>
+          </select>
+         </div>
+         <div></div>
+         <div class="second">
+          <i class="bi bi-buildings hometown">
+            <input type="text" placeholder="Hometown">
+          </i>
+         </div>
         </div>
-        <div></div>
-        <div class="lower">
-            <label for="home"></label>
-            Hometown:<input type="text" id="home">
-     </div>
     </div>
+  </form>
+    <div class="but"><button class=but1><i class="bi bi-brightness-high-fill"></i><img src="Images/bulb.png" class="bulbImg"></button>
+      <button type="button" class="btn btn-light">Mode</button></div>
+      <div class="searchbar">
+        <form class="d-flex mobile">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-success" type="submit">Search</button>
+        </form>
+      </div>
+      <!-- <button type="button" class="btn btn-warning">Light</button> -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 </html>
+<!-- <img src="Images/bulb.png" class="bulbImg"> -->
