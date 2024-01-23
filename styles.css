@@ -63,6 +63,8 @@ body{
     font-size: 20px;
     opacity: 0.8;
     text-shadow: 2px 2px 5px red;
+    background-color: pink;
+    opacity: 0.9;
 }
 .batch{
     text-align: center;
@@ -76,6 +78,8 @@ body{
     font-size: 20px;
     opacity: 0.8;
     text-shadow: 2px 2px 5px red;
+    background-color: pink;
+    opacity: 0.9;
 }
 .hall{
     text-align: center;
@@ -89,6 +93,8 @@ body{
     font-size: 20px;
     opacity: 0.8;
     text-shadow: 2px 2px 5px red;
+    background-color: pink;
+    opacity: 0.9;
 }
 .bg{
     text-align: center;
@@ -103,6 +109,8 @@ body{
     font-size: 20px;
     opacity: 0.8;
     text-shadow: 2px 2px 5px red;
+    background-color: pink;
+    opacity: 0.9;
 
 }
 .programme{
@@ -117,12 +125,16 @@ body{
     font-size: 20px;
     opacity:0.8;
     text-shadow: 2px 2px 5px red;
+    background-color: pink;
+    opacity: 0.9;
 }
 #hometown{
     height: 42px;
     color: black;
     width: 100rem;
     opacity: 0.8;
+    background-color: pink;
+    opacity: 0.9;
 }
 h2{
     color: black;
@@ -145,6 +157,10 @@ img{
 .searchbar{
     display:flex;
     justify-content: center;
+}
+#department-select{
+    background-color: pink;
+    opacity: 0.9;
 }
 @media(max-width: 600px){
     .list{

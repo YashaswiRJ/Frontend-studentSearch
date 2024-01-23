@@ -87,6 +87,7 @@ body{
     font-size: 20px;
     opacity: 0.8;
     text-shadow: 2px 2px 5px yellow;
+    text-shadow: 2px 2px 5px red;
 }
 .bg{
     text-align: center;
@@ -101,6 +102,7 @@ body{
     font-size: 20px;
     opacity: 0.8;
     text-shadow: 2px 2px 5px white;
+    text-shadow: 2px 2px 5px red;
 
 }
 .programme{
@@ -115,6 +117,7 @@ body{
     font-size: 20px;
     opacity:0.8;
     text-shadow: 2px 2px 5px white;
+    text-shadow: 2px 2px 5px red;
 }
 #hometown{
     height: 42px;
