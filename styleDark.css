@@ -1,0 +1,157 @@
+h1{
+    font-family: garamond, serif;
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+body{
+    background-image: url('Images/nightsky.png.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.list{
+    display:grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: 34% 34% 32%;
+    height: 60vh;
+    padding: 50px;
+}
+
+
+.second{
+    /* height: 20vh;
+    width: 30vh; */
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border: 10px solid white;
+    box-shadow: 5px 10px #ff8000;
+    border-radius: 35px;
+    color: white;
+}
+.grid{
+    display:grid;
+    width: 90rem;
+    height: 30rem;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: 34% 34% 32%;
+}
+.dep{
+    text-align: center;
+    height: 42px;
+    color: black;
+}
+#department-select{
+    height: 42px;
+    color: black;
+    width: 100rem;
+    font-size: 20px;
+    opacity: 0.8;
+    text-shadow: 2px 2px 5px red;
+}
+.gender{
+    text-align: center;
+    height: 42px;
+    color: black;
+}
+#gender-select{
+    height: 42px;
+    color: black;
+    width: 100rem;
+    font-size: 20px;
+    opacity: 0.8;
+    text-shadow: 2px 2px 5px red;
+}
+.batch{
+    text-align: center;
+    height: 42px;
+    color: black;
+}
+#batch-select{
+    height: 42px;
+    color: black;
+    width: 100rem;
+    font-size: 20px;
+    opacity: 0.8;
+    text-shadow: 2px 2px 5px red;
+}
+.hall{
+    text-align: center;
+    height: 42px;
+    color: black;
+}
+#hall-select{
+    height: 42px;
+    color: black;
+    width: 100rem;
+    font-size: 20px;
+    opacity: 0.8;
+    text-shadow: 2px 2px 5px yellow;
+}
+.bg{
+    text-align: center;
+    height: 42px;
+    color: black;
+
+}
+#bloodGroup-select{
+    height: 42px;
+    color: black;
+    width: 100rem;
+    font-size: 20px;
+    opacity: 0.8;
+    text-shadow: 2px 2px 5px white;
+
+}
+.programme{
+    text-align: center;
+    height: 42px;
+    color: black;
+}
+#programme-select{
+    height: 42px;
+    color: black;
+    width: 100rem;
+    font-size: 20px;
+    opacity:0.8;
+    text-shadow: 2px 2px 5px white;
+}
+#hometown{
+    height: 42px;
+    color: black;
+    width: 200rem;
+    opacity: 0.8;
+}
+h2{
+    color: black;
+}
+.but1{
+    height: 50px;
+    width: 50px;
+    <img src="Images/bulb.png">
+}
+.but{
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+    <img src="Images/bulb.png">
+}
+img{
+    height: auto;
+    width: 100%;
+}
+
+
+h1{
+    color: white;
+}
+.hometown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200rem;
+}
+.searchbar{
+        display:flex;
+        justify-content: center;
+}
