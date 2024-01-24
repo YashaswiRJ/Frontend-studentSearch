@@ -7,9 +7,14 @@ function modeShift(){
     if(att == "styles.css"){
         change.setAttribute("href", "styleDark.css");
         btnChange.setAttribute("class", "btn btn-warning");
+        btnaudio();
     } else {
         change.setAttribute("href", "styles.css");
         btnChange.setAttribute("class", "btn btn-light");
+        btnaudio();
     }
 }
-
+function btnaudio(){
+    var audio = new Audio("snare.mp3");
+    audio.play();
+}
